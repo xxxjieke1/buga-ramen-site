@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BUGA RAMEN · Dos Hermanas | Ramen & Comida Japonesa</title>
+<meta name="description" content="BUGA RAMEN Dos Hermanas — Ramen artesanal, gyozas, bao y cocina japonesa en Sevilla. Descubre nuestra carta y ven a visitarnos.">
+<meta property="og:type" content="restaurant">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="BUGA RAMEN Dos Hermanas | Ramen artesanal en Sevilla">
+<meta property="og:description" content="Ramen artesanal, gyozas, bao y cocina japonesa en Centro Comercial Sevilla Factory, Dos Hermanas (Sevilla).">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Restaurant",
+  "name":"BUGA RAMEN Dos Hermanas",
+  "servesCuisine":["Ramen","Comida japonesa","Gyozas","Bao"],
+  "priceRange":"€€",
+  "telephone":"+34 955753877",
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"Centro Comercial Sevilla Factory, Av. 4 de Diciembre",
+    "postalCode":"41703",
+    "addressLocality":"Dos Hermanas",
+    "addressRegion":"Sevilla",
+    "addressCountry":"ES"
+  },
+  "geo":{"@type":"GeoCoordinates","latitude":37.2877,"longitude":-5.9416},
+  "openingHoursSpecification":[
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"12:30","closes":"16:30"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"20:00","closes":"00:00"}
+  ],
+  "sameAs":["https://www.instagram.com/bugaramendoshermanas","https://www.tiktok.com/@buga.ramen.dos.he"]
+}
+</script>
+<link rel="icon" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://miaoda.feishu.cn">
+<link href="https://miaoda.feishu.cn/fonts/css2?family=Shippori+Mincho:wght@500;600;700;800&family=Noto+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#14100b;
+    --bg-2:#1b1410;
+    --surface:#201810;
+    --line:#3a2c1e;
+    --ink:#f4e9da;
+    --muted:#c3ae92;
+    --muted-2:#9c8768;
+    --accent:#ea5a10;
+    --accent-2:#ff7a2f;
+    --gold:#e0a95c;
+    --serif:'Shippori Mincho',Georgia,'Noto Sans','Songti SC','SimSun',serif;
+    --sans:'Noto Sans','PingFang SC','Microsoft YaHei',system-ui,sans-serif;
+    --max:1180px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-weight:300;line-height:1.65;-webkit-font-smoothing:antialiased}
+  img{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+  section{padding:88px 0}
+  .kicker{font-family:var(--serif);letter-spacing:.42em;font-size:12px;text-transform:uppercase;color:var(--accent);margin-bottom:14px}
+  h2.title{font-family:var(--serif);font-weight:700;font-size:clamp(26px,4vw,38px);line-height:1.2}
+  .lead{color:var(--muted);font-size:clamp(15px,1.4vw,17px);max-width:640px}
+
+  /* ===== Header ===== */
+  header{position:sticky;top:0;z-index:60;background:rgba(12,9,6,.82);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+  .brand{display:flex;align-items:center;gap:11px}
+  .brand .mark{width:34px;height:34px;flex:0 0 auto}
+  .brand .logo{height:34px;width:auto;display:block}
+  .brand .word{font-family:var(--serif);font-weight:800;font-size:20px;letter-spacing:.06em}
+  .brand .word small{display:block;font-family:var(--sans);font-weight:500;font-size:9.5px;letter-spacing:.34em;color:var(--accent);text-transform:uppercase}
+  .nav-links{display:flex;align-items:center;gap:26px;font-size:14px;color:var(--muted)}
+  .nav-links a{position:relative;transition:color .2s}
+  .nav-links a::after{content:"";position:absolute;left:0;bottom:-5px;width:0;height:2px;background:var(--accent);transition:width .22s}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-links a:hover::after{width:100%}
+  .nav-burger{display:none;background:none;border:0;cursor:pointer;width:34px;height:34px;position:relative}
+  .nav-burger span{position:absolute;left:4px;width:26px;height:2px;background:var(--ink);transition:.25s}
+  .nav-burger span:nth-child(1){top:9px}.nav-burger span:nth-child(2){top:16px}.nav-burger span:nth-child(3){top:23px}
+  .mobile-menu{display:none;flex-direction:column;gap:6px;padding:10px 24px 18px;background:var(--bg)}
+  .mobile-menu a{font-size:17px;padding:9px 0;border-bottom:1px solid var(--line);color:var(--muted)}
+  .mobile-menu a:hover{color:var(--ink)}
+
+  /* ===== Hero ===== */
+  .hero{position:relative;min-height:min(92vh,820px);display:flex;align-items:center;overflow:hidden;background:#0c0906}
+  .hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 32%}
+  .hero .veil{position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,9,6,.92) 0%,rgba(12,9,6,.62) 42%,rgba(12,9,6,.25) 100%),linear-gradient(0deg,rgba(12,9,6,.9) 0%,transparent 30%)}
+  .hero-inner{position:relative;z-index:2;padding:120px 0 96px;max-width:var(--max);margin:0 auto;width:100%}
+  .hero .loc-tag{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(224,169,92,.4);padding:7px 15px;border-radius:999px;margin-bottom:26px}
+  .hero h1{font-family:var(--serif);font-weight:800;font-size:clamp(44px,8vw,84px);line-height:1.02;letter-spacing:.01em}
+  .hero h1 .ja{color:var(--accent)}
+  .hero .sub{margin-top:20px;font-size:clamp(16px,1.9vw,21px);color:var(--muted);max-width:560px}
+  .hero .cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:38px}
+  .btn{display:inline-flex;align-items:center;gap:9px;padding:14px 26px;border-radius:999px;font-family:var(--sans);font-weight:600;font-size:14px;letter-spacing:.04em;transition:.22s;cursor:pointer;border:1px solid transparent}
+  .btn-solid{background:var(--accent);color:#1a0f06;border-color:var(--accent)}
+  .btn-solid:hover{background:var(--accent-2);transform:translateY(-2px);box-shadow:0 10px 24px rgba(234,90,16,.35)}
+  .btn-ghost{background:transparent;color:var(--ink);border-color:rgba(244,233,218,.35)}
+  .btn-ghost:hover{border-color:var(--ink);background:rgba(255,255,255,.06)}
+  .hero .meta-row{display:flex;flex-wrap:wrap;gap:34px;margin-top:58px;padding-top:24px;border-top:1px solid rgba(244,233,218,.16)}
+  .hero .meta-row .m{font-size:13px;color:var(--muted)}
+  .hero .meta-row .m b{display:block;font-family:var(--serif);color:var(--ink);font-size:17px;font-weight:700;margin-bottom:2px}
+
+  /* ===== Featured (Destacados) ===== */
+  .featured{background:var(--bg-2)}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:40px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:.25s}
+  .card:hover{transform:translateY(-5px);border-color:rgba(234,90,16,.5);box-shadow:0 18px 40px rgba(0,0,0,.4)}
+  .card .ph{aspect-ratio:1/1;overflow:hidden}
+  .card .ph img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+  .card:hover .ph img{transform:scale(1.05)}
+  .card .body{padding:18px 20px 22px}
+  .card .name{font-family:var(--serif);font-weight:700;font-size:19px;display:flex;justify-content:space-between;gap:10px}
+  .card .name .price{color:var(--accent);font-weight:600;white-space:nowrap}
+  .card .desc{color:var(--muted);font-size:13.5px;margin-top:7px}
+
+  /* ===== About ===== */
+  .about{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
+  .about .media{position:relative}
+  .about .media img{border-radius:18px;width:100%;aspect-ratio:3/2;object-fit:cover;box-shadow:0 24px 60px rgba(0,0,0,.5)}
+  .about .media .stamp{position:absolute;right:-22px;bottom:-22px;width:132px;height:132px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;text-align:center;font-family:var(--serif);font-weight:700;font-size:13px;line-height:1.4;color:#1a0f06;box-shadow:0 12px 30px rgba(234,90,16,.4)}
+  .about p{color:var(--muted);margin-top:18px;max-width:540px}
+  .about .points{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
+  .about .points .p{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--surface)}
+  .about .points .p b{display:block;font-family:var(--serif);color:var(--gold);font-size:22px;font-weight:700;margin-bottom:3px}
+  .about .points .p span{font-size:12.5px;color:var(--muted)}
+  .gallery{margin-top:70px}
+  .gallery .kicker{display:block;text-align:center}
+  .gallery .title{text-align:center}
+  .gallery-stage{position:relative;margin-top:34px}
+  .gallery-view{overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:rgba(234,90,16,.55) rgba(255,255,255,.07);padding:4px 0 14px}
+  .gallery-view::-webkit-scrollbar{height:8px}
+  .gallery-view::-webkit-scrollbar-thumb{background:rgba(234,90,16,.55);border-radius:8px}
+  .gallery-track{display:flex;gap:18px;width:max-content}
+  .gallery-item{flex:0 0 auto;scroll-snap-align:start;width:430px;max-width:84vw}
+  .gallery-item figure{border-radius:16px;overflow:hidden;border:1px solid var(--line);background:var(--surface);box-shadow:0 16px 40px rgba(0,0,0,.4)}
+  .gallery-item figure img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;transition:transform .5s ease}
+  .gallery-item figure:hover img{transform:scale(1.04)}
+  .gallery-item figcaption{padding:12px 14px;font-family:var(--serif);font-weight:700;color:var(--ink);font-size:14px}
+  .gal-arrow{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:rgba(20,16,11,.72);color:var(--gold);cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:3;transition:background .2s,color .2s}
+  .gal-arrow:hover{background:var(--accent);color:#1a0f06}
+  .gal-arrow.prev{left:-24px}
+  .gal-arrow.next{right:-24px}
+  @media(max-width:820px){.gal-arrow{display:none}.gallery-item{width:88vw}}
+
+  /* ===== Offer ===== */
+  .offer{background:linear-gradient(160deg,#24170c,#16100a)}
+  .offer-inner{display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap;border:1px dashed rgba(234,90,16,.6);border-radius:18px;padding:32px 36px;background:radial-gradient(circle at 12% 20%,rgba(234,90,16,.16),transparent 55%)}
+  .offer-text{flex:1;min-width:280px}
+  .offer .big{font-family:var(--serif);font-weight:800;font-size:clamp(24px,4vw,38px);line-height:1.18}
+  .offer .big .hl{color:var(--accent)}
+  .offer p{color:var(--muted);max-width:460px}
+  .offer-poster{flex:0 0 auto;height:clamp(300px,38vw,480px);width:auto;max-width:100%;border-radius:16px;box-shadow:0 20px 50px rgba(0,0,0,.5);border:2px solid rgba(234,90,16,.35)}
+  @media(max-width:760px){.offer-poster{height:auto;width:min(340px,88%);margin:0 auto}}
+  .offer .offer-tag{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(224,169,92,.4);padding:6px 13px;border-radius:999px;margin-bottom:14px}
+
+  /* ===== Anime / Manga decorations ===== */
+  .dots{position:relative}
+  .dots::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+    background-image:radial-gradient(rgba(255,244,220,.08) 1.4px, transparent 1.4px);
+    background-size:11px 11px}
+  .dots .wrap{position:relative;z-index:1}
+  .comic{position:relative}
+  .comic::before,.comic::after{content:"";position:absolute;width:24px;height:24px;border:3px solid var(--accent);opacity:.55;pointer-events:none}
+  .comic::before{top:12px;left:12px;border-right:0;border-bottom:0}
+  .comic::after{bottom:12px;right:12px;border-left:0;border-top:0}
+
+  /* ===== Menu ===== */
+  .menu{background:var(--bg-2)}
+  .menu-head{display:flex;align-items:end;justify-content:space-between;flex-wrap:wrap;gap:20px}
+  .menu-tabs{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px;position:sticky;top:68px;z-index:40;background:var(--bg-2);padding:12px 0;border-bottom:1px solid var(--line)}
+  .tab{background:var(--surface);border:1px solid var(--line);color:var(--muted);padding:10px 18px;border-radius:999px;font-family:var(--sans);font-weight:500;font-size:13.5px;cursor:pointer;transition:.2s}
+  .tab:hover{color:var(--ink);border-color:rgba(234,90,16,.5)}
+  .tab.on{background:var(--accent);border-color:var(--accent);color:#1a0f06}
+  .menu-panel{display:none;padding-top:34px}
+  .menu-panel.on{display:block;animation:fade .3s ease}
+  @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .panel-title{font-family:var(--serif);font-weight:700;font-size:22px;margin-bottom:6px}
+  .panel-sub{color:var(--muted-2);font-size:13px;margin-bottom:26px}
+  .dish{display:grid;grid-template-columns:96px 1fr auto;gap:16px;align-items:center;padding:13px 4px;border-bottom:1px dashed var(--line)}
+  .dish .thumb{width:96px;height:76px;object-fit:cover;border-radius:10px;border:1px solid rgba(234,90,16,.35);flex:none}
+  .dish-body{min-width:0}
+  .dish .nm{font-family:var(--serif);font-weight:600;font-size:16.5px}
+  .dish .ds{color:var(--muted);font-size:13px;margin-top:3px;max-width:760px}
+  .dish .pr{font-weight:600;color:var(--accent);white-space:nowrap;font-size:15px;padding-left:8px}
+  @media(max-width:560px){.dish{grid-template-columns:72px 1fr auto;gap:12px}.dish .thumb{width:72px;height:58px}}
+  .dish .pr.na{color:var(--muted-2)}
+  .menu-note{color:var(--muted-2);font-size:12.5px;margin-top:26px;line-height:1.8}
+  .gyoza-note{margin-top:14px;padding:10px 14px;border:1px dashed rgba(234,90,16,.5);border-radius:10px;background:rgba(234,90,16,.07);color:var(--muted);font-size:13px;line-height:1.7}
+  .gyoza-note b{color:var(--accent);font-weight:700}
+
+  /* ===== Location ===== */
+  .loc{display:grid;grid-template-columns:1fr 1.1fr;gap:52px;align-items:start}
+  .info-block{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:26px 26px 10px}
+  .info-block h3{font-family:var(--serif);font-weight:700;font-size:17px;margin-bottom:18px;color:var(--gold)}
+  .row{display:flex;gap:14px;padding:14px 0;border-bottom:1px dashed var(--line);align-items:flex-start}
+  .row:last-child{border-bottom:0}
+  .row svg{width:21px;height:21px;flex:0 0 auto;color:var(--accent);margin-top:2px}
+  .row .rt b{display:block;font-weight:600;font-size:15px}
+  .row .rt span{color:var(--muted);font-size:13.5px}
+  .hours{width:100%;border-collapse:collapse;margin-top:4px;font-size:14px}
+  .hours td{padding:8px 0;border-bottom:1px dashed var(--line);color:var(--muted)}
+  .hours td:last-child{text-align:right}
+  .hours tr:last-child td{border-bottom:0}
+  .mapbox{height:100%;min-height:360px;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:var(--surface);position:relative}
+  .mapbox iframe{width:100%;height:100%;border:0;filter:grayscale(1) invert(.92) contrast(.9)}
+  .map-fallback{position:absolute;inset:0;display:flex;flex-direction:column;gap:14px;align-items:center;justify-content:center;color:var(--muted);text-align:center;padding:24px;background:
+    radial-gradient(circle at 30% 30%,#2a1d12,var(--bg-2))}
+  .map-fallback .pin{font-size:44px;color:var(--accent)}
+
+  /* ===== Contact CTA ===== */
+  .contact{background:var(--bg);text-align:center}
+  .contact .big{font-family:var(--serif);font-weight:800;font-size:clamp(30px,5vw,52px);line-height:1.15}
+  .contact .big .ja{color:var(--accent)}
+  .contact p{color:var(--muted);max-width:560px;margin:18px auto 0}
+  .contact .cta{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:34px}
+
+  /* ===== Footer ===== */
+  footer{background:#0e0a07;border-top:1px solid var(--line);padding:44px 0 34px}
+  .foot{display:flex;flex-wrap:wrap;gap:26px;justify-content:space-between;align-items:center;color:var(--muted-2);font-size:13px}
+  .foot .brand .word{color:var(--ink)}
+  .foot .socials{display:flex;gap:14px}
+  .foot .socials a{width:38px;height:38px;border:1px solid var(--line);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--muted);transition:.2s}
+  .foot .socials a:hover{color:var(--ink);border-color:var(--accent)}
+  .foot .socials svg{width:17px;height:17px}
+  .note-editable{color:var(--muted-2);font-size:12px;line-height:1.7}
+
+  @media(max-width:900px){
+    .nav-links{display:none}
+    .nav-burger{display:block}
+    .about{grid-template-columns:1fr}
+    .about .media .stamp{right:8px;bottom:-8px}
+    .cards{grid-template-columns:repeat(2,1fr)}
+    .loc{grid-template-columns:1fr}
+    .mapbox{min-height:300px}
+  }
+  @media(max-width:560px){
+    section{padding:64px 0}
+    .cards{grid-template-columns:1fr}
+    .about .points{grid-template-columns:1fr}
+    .hero-inner{padding:90px 0 70px}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== Header ===== -->
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#inicio" aria-label="BUGA RAMEN inicio">
+      <img class="logo" src="assets/logo.png" alt="BUGA RAMEN">
+      <span class="word">Dos Hermanas<small>Ramen · Sevilla</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Navegación">
+      <a href="#inicio">Inicio</a>
+      <a href="#destacados">Destacados</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#carta">La Carta</a>
+      <a href="#ubicacion">Ubicación</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="nav-burger" id="burger" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mmenu">
+    <a href="#inicio">Inicio</a>
+    <a href="#destacados">Destacados</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#carta">La Carta</a>
+    <a href="#ubicacion">Ubicación</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero" id="inicio">
+  <img class="bg" src="assets/hero.jpg" alt="Ramen casero de BUGA RAMEN Dos Hermanas">
+  <div class="veil"></div>
+  <div class="hero-inner">
+    <span class="loc-tag">◆ Dos Hermanas · Sevilla</span>
+    <h1>BUGA <span class="ja">RAMEN</span></h1>
+    <p class="sub">Ramen artesanal, gyozas crujientes, bao esponjosos y la mejor cocina japonesa, cocinada a fuego lento en plena calle de Dos Hermanas.</p>
+    <div class="cta">
+      <a class="btn btn-solid" href="#carta">Ver la carta</a>
+      <a class="btn btn-ghost" href="#ubicacion">Cómo llegar</a>
+    </div>
+    <div class="meta-row">
+      <div class="m"><b>Ramen artesanal</b>Caldo cocinado a fuego lento</div>
+      <div class="m"><b>Hecho al momento</b>Fideos y salsas caseras</div>
+      <div class="m"><b>Para llevar</b>Recoge tu pedido</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Featured ===== -->
+<section class="featured dots" id="destacados">
+  <div class="wrap">
+    <span class="kicker">Los imprescindibles</span>
+    <h2 class="title">Los platos que más nos piden</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="ph"><img src="assets/karaage.jpg" alt="Karaage — pollo frito crujiente"></div>
+        <div class="body">
+          <div class="name"><span>Karaage</span><span class="price">4,80€</span></div>
+          <div class="desc">Pollo frito crujiente, cebollino, nori cortado, limón y mayonesa.</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="ph"><img src="assets/gyoza.jpg" alt="Gyoza a la plancha"></div>
+        <div class="body">
+          <div class="name"><span>Gyoza a la plancha</span><span class="price">5,20€</span></div>
+          <div class="desc">Gyozas de pollo a la plancha, perfectas para empezar.</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="ph"><img src="assets/bao.jpg" alt="Bao de pollo"></div>
+        <div class="body">
+          <div class="name"><span>Bao de Pollo</span><span class="price">4,80€</span></div>
+          <div class="desc">Pan bao, pollo teriyaki, pepino, lechuga, cebollino y okonomiyaki.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== About ===== -->
+<section id="nosotros">
+  <div class="wrap about">
+    <div class="media">
+      <img src="assets/interior.jpg" alt="Interior del local BUGA RAMEN Dos Hermanas">
+      <div class="stamp">Caldo<br>artesanal<br>desde el día</div>
+    </div>
+    <div class="text">
+      <span class="kicker">Nuestra casa</span>
+      <h2 class="title">Un trocito de Tokio en Dos Hermanas</h2>
+      <p>En BUGA RAMEN Dos Hermanas llevamos a la mesa la tradición del ramen japonés: caldos que hierven a fuego lento durante horas, fideos frescos hechos al momento y salsas caseras con ese punto exacto de umami.</p>
+      <p>Aquí todo se cocina en el día y nada se improvisa. Vení a sentarte a nuestra barra, respirar el vapor del caldo y dejar que un buen cuenco te lleve, por un momento, a las callejuelas de Tokio.</p>
+      <div class="points">
+        <div class="p"><b>100%</b><span>caldos y salsas caseras</span></div>
+        <div class="p"><b>1</b><span>cuenco, mil sabores</span></div>
+        <div class="p"><b>5 días</b><span>la semana que te esperamos</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="wrap gallery">
+    <span class="kicker">Nuestro local</span>
+    <h2 class="title">Así es nuestro BUGA RAMEN</h2>
+    <div class="gallery-stage">
+      <button class="gal-arrow prev" aria-label="Anterior"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+      <div class="gallery-view">
+        <div class="gallery-track">
+          <div class="gallery-item"><figure><img src="assets/tienda-1.jpg" alt="Zona de mesas con ambiente anime"><figcaption>Zona de mesas</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="assets/tienda-2.jpg" alt="Salón con ambiente anime"><figcaption>El salón</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="assets/tienda-3.jpg" alt="Colección de figuras anime"><figcaption>Colección anime</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="assets/tienda-4.jpg" alt="Rincón temático de Naruto"><figcaption>Rincón Naruto</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="assets/tienda-5.jpg" alt="Mural temático de Naruto"><figcaption>Mural Naruto</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="assets/tienda-6.jpg" alt="Comedor estilo izakaya"><figcaption>Comedor izakaya</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="assets/tienda-7.jpg" alt="Zona teppanyaki con farolillos"><figcaption>Zona teppanyaki</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="assets/tienda-8.jpg" alt="Rincón izakaya con camión de juguete"><figcaption>Rincón izakaya</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="assets/tienda-9.jpg" alt="Fachada del local por la noche"><figcaption>Nuestra fachada</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="assets/tienda-10.jpg" alt="Estatua de Zoro de One Piece"><figcaption>Estatua de Zoro</figcaption></figure></div>
+        </div>
+      </div>
+      <button class="gal-arrow next" aria-label="Siguiente"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Offer / Oferta especial ===== -->
+<section class="offer" id="oferta">
+  <div class="wrap">
+    <div class="offer-inner comic">
+      <div class="offer-text">
+        <span class="offer-tag">◆ Oferta de la semana</span>
+        <div class="big">Todos los <span class="hl">jueves</span><br>2x1 en Ramen</div>
+        <p>Ven con quien quieras y llévate el segundo cuenco de ramen gratis, todos los jueves. La oferta más esperada de la semana, solo en BUGA RAMEN Dos Hermanas.</p>
+      </div>
+      <img class="offer-poster" src="assets/promo-2x1.jpg" alt="2x1 en Ramen todos los jueves">
+    </div>
+  </div>
+</section>
+
+<!-- ===== Menu / Carta ===== -->
+<section class="menu dots" id="carta">
+  <div class="wrap">
+    <div class="menu-head">
+      <div>
+        <span class="kicker">La carta</span>
+        <h2 class="title">Nuestro menú</h2>
+      </div>
+      <p class="lead">Elegí una categoría para ver los platos. Todos nuestros caldos y salsas se elaboran en el local.</p>
+    </div>
+
+    <div class="menu-tabs" id="tabs">
+      <button class="tab on" data-cat="entrantes">Entrantes</button>
+      <button class="tab" data-cat="ramen">Ramen</button>
+      <button class="tab" data-cat="bao">Bao</button>
+      <button class="tab" data-cat="donburi">Donburi</button>
+      <button class="tab" data-cat="combo">Combo</button>
+      <button class="tab" data-cat="cerveza">Cerveza</button>
+      <button class="tab" data-cat="bebidas">Bebidas</button>
+      <button class="tab" data-cat="postre">Postre</button>
+    </div>
+
+    <!-- Entrantes -->
+    <div class="menu-panel on" data-panel="entrantes">
+      <div class="panel-title">Entrantes</div>
+      <div class="panel-sub">Para empezar · to share</div>
+      <div class="dish"><img class="thumb" src="assets/entr-gyoza.jpg" alt="Gyoza a la plancha" loading="lazy"><div class="dish-body"><div class="nm">Gyoza a la plancha<span>(8u)</span></div><div class="ds">Gyozas de pollo a la plancha.</div></div><div class="pr">5,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-gyoza-okonomiyaki.jpg" alt="Gyoza Okonomiyaki" loading="lazy"><div class="dish-body"><div class="nm">Gyoza Okonomiyaki<span>(8u)</span></div><div class="ds">Gyoza de pollo frito, cebollino, salsa okonomiyaki y mayonesa.</div></div><div class="pr">5,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-gyoza-spicy.jpg" alt="Gyoza Frita Spicy Mayonnaise" loading="lazy"><div class="dish-body"><div class="nm">Gyoza Frita Spicy Mayonnaise<span>(8u)</span></div><div class="ds">Gyoza de pollo frito, cebollino, okonomiyaki y mayonesa picante.</div></div><div class="pr">5,80€</div></div>
+      <p class="gyoza-note">Elige el relleno de tus gyozas: <b>pollo</b>, <b>cerdo</b> o <b>verduras</b>. Gambas <b>+0,80 €</b> · Pato <b>+0,50 €</b></p>
+      <div class="dish"><img class="thumb" src="assets/entr-karaage.jpg" alt="Karaage" loading="lazy"><div class="dish-body"><div class="nm">Karaage</div><div class="ds">Pollo frito crujiente, cebollino, nori cortado, limón y mayonesa.</div></div><div class="pr">4,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-karaage-okonomiyaki.jpg" alt="Karaage Okonomiyaki" loading="lazy"><div class="dish-body"><div class="nm">Karaage Okonomiyaki</div><div class="ds">Pollo frito marinado crujiente, cebollino, nori, okonomiyaki y mayonesa.</div></div><div class="pr">5,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-karaage-spicy.jpg" alt="Karaage Spicy" loading="lazy"><div class="dish-body"><div class="nm">Karaage Spicy</div><div class="ds">Pollo frito marinado crujiente, cebollino, nori, okonomiyaki y mayonesa picante.</div></div><div class="pr">5,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-pork-nikuman.jpg" alt="Pork Nikuman" loading="lazy"><div class="dish-body"><div class="nm">Pork Nikuman<span>(3u)</span></div><div class="ds">Panecillos a la plancha rellenos de cerdo y verduras, teriyaki y cebollino.</div></div><div class="pr">5,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-pato-nikuman.jpg" alt="Pato Nikuman" loading="lazy"><div class="dish-body"><div class="nm">Pato Nikuman<span>(3u)</span></div><div class="ds">Panecillos a la plancha rellenos de pato y verduras, salsa hoisin y cebollino.</div></div><div class="pr">5,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-tori-nikuman.jpg" alt="Tori Nikuman" loading="lazy"><div class="dish-body"><div class="nm">Tori Nikuman<span>(3u)</span></div><div class="ds">Panecillos a la plancha rellenos de pollo y verduras, teriyaki y cebollino.</div></div><div class="pr">5,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-harumaki.jpg" alt="Nika Harumaki Roll" loading="lazy"><div class="dish-body"><div class="nm">Nika Harumaki Roll</div><div class="ds">Rollitos de primavera crujientes de cerdo, gambas, shitake, zanahoria y vermicelli, con ensalada.</div></div><div class="pr">3,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-harumaki-veg.jpg" alt="Yasabi Harumaki Roll" loading="lazy"><div class="dish-body"><div class="nm">Yasabi Harumaki Roll</div><div class="ds">Rollitos de primavera crujientes de shitake, zanahoria y vermicelli, con ensalada.</div></div><div class="pr">3,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-mochi-dango.jpg" alt="Kawai Mochi Dango" loading="lazy"><div class="dish-body"><div class="nm">Kawai Mochi Dango</div><div class="ds">Bolas dulces en palillo de harina de arroz y arroz glutinoso.</div></div><div class="pr">4,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-wings.jpg" alt="Shibuya Chicken Wings" loading="lazy"><div class="dish-body"><div class="nm">Shibuya Chicken Wings</div><div class="ds">Alitas marinadas fritas con ensalada.</div></div><div class="pr">4,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-edamame.jpg" alt="Edamame" loading="lazy"><div class="dish-body"><div class="nm">Edamame</div><div class="ds">Vainas de soja a la brasa con sal marina.</div></div><div class="pr">4,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-korokke.jpg" alt="Korokke" loading="lazy"><div class="dish-body"><div class="nm">Korokke</div><div class="ds">Croqueta frita de verduras con okonomiyaki, lechuga y mayonesa.</div></div><div class="pr">4,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-yakitori.jpg" alt="Yakitori" loading="lazy"><div class="dish-body"><div class="nm">Yakitori</div><div class="ds">Pincho de pollo a la plancha con sésamo, lechuga, algas, teriyaki y mayonesa.</div></div><div class="pr">4,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-ebi-kushiyaki.jpg" alt="Ebi Kushiyaki" loading="lazy"><div class="dish-body"><div class="nm">Ebi Kushiyaki</div><div class="ds">Pincho de gambas a la plancha con sésamo, lechuga, cebollino, teriyaki y mayonesa.</div></div><div class="pr">5,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-kimchi.jpg" alt="Kimchi" loading="lazy"><div class="dish-body"><div class="nm">Kimchi</div><div class="ds">Col asiática fermentada con cebollino y un punto picante.</div></div><div class="pr">4,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-norishio-potato.jpg" alt="Norishio Potato" loading="lazy"><div class="dish-body"><div class="nm">Norishio Potato</div><div class="ds">Patatas fritas con alga nori, mayonesa y cebolla frita.</div></div><div class="pr">4,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-takoyaki.jpg" alt="Takoyaki" loading="lazy"><div class="dish-body"><div class="nm">Takoyaki</div><div class="ds">Croqueta de pulpo con cebollino, okonomiyaki, mayonesa y copos de boniato.</div></div><div class="pr">5,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-wakame.jpg" alt="Wakame" loading="lazy"><div class="dish-body"><div class="nm">Wakame</div><div class="ds">Alga marina dulce y oceánica con sésamo.</div></div><div class="pr">4,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-teriyaki-chicken.jpg" alt="Teriyaki Chicken" loading="lazy"><div class="dish-body"><div class="nm">Teriyaki Chicken</div><div class="ds">Pollo con salsa teriyaki y sésamo, lechuga y mayonesa.</div></div><div class="pr">4,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-ebi-fry.jpg" alt="Ebi Fry" loading="lazy"><div class="dish-body"><div class="nm">Ebi Fry</div><div class="ds">Langostino frito crujiente, lechuga, okonomiyaki y mayonesa.</div></div><div class="pr">4,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/entr-hotdog.jpg" alt="Hot Dog Japonés Frito" loading="lazy"><div class="dish-body"><div class="nm">Hot Dog Japonés Frito<span>(2u)</span></div><div class="ds">Perrito caliente japonés frito crujiente.</div></div><div class="pr">5,20€</div></div>
+    </div>
+
+    <!-- Ramen -->
+    <div class="menu-panel" data-panel="ramen">
+      <div class="panel-title">Ramen</div>
+      <div class="panel-sub">Caldos cocinados a fuego lento, fideos frescos y toppings al momento</div>
+      <div class="dish"><img class="thumb" src="assets/ramen-teriyaki-miso.jpg" alt="Teriyaki Chicken Miso" loading="lazy"><div class="dish-body"><div class="nm">Teriyaki Chicken Miso</div><div class="ds">Pollo teriyaki con sésamo, bambú, pak choi, naruto, huevo, brotes de soja, col china, puerro y nori.</div></div><div class="pr">12,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-chashu.jpg" alt="Chashu" loading="lazy"><div class="dish-body"><div class="nm">Chashu</div><div class="ds">Cerdo, bambú, pak choi, naruto, huevo, brotes de soja, col china y nori.</div></div><div class="pr">12,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-gyuniku.jpg" alt="Gyuniku" loading="lazy"><div class="dish-body"><div class="nm">Gyuniku</div><div class="ds">Ternera estofada, zanahoria, pak choi, huevo, brotes de soja, col china, cebollino, puerro y nori.</div></div><div class="pr">13,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-ebi-shoyu.jpg" alt="Ebi Shoyu" loading="lazy"><div class="dish-body"><div class="nm">Ebi Shoyu</div><div class="ds">Colas de gambas con teriyaki y sésamo, bambú, pak choi, naruto, nori, cebollino, huevo y brotes de soja.</div></div><div class="pr">13,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-pato-shoyu.jpg" alt="Pato Shoyu" loading="lazy"><div class="dish-body"><div class="nm">Pato Shoyu</div><div class="ds">Pato frito con salsa hoisin, bambú, pak choi, naruto, huevo, brotes de soja, col china y nori.</div></div><div class="pr">13,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-teriyaki-shoyu.jpg" alt="Teriyaki Chicken Shoyu" loading="lazy"><div class="dish-body"><div class="nm">Teriyaki Chicken Shoyu</div><div class="ds">Pollo teriyaki con sésamo, wakame, bambú, pak choi, naruto, huevo, nori, brotes de soja y col china.</div></div><div class="pr">12,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-katsu.jpg" alt="Spicy Chicken Katsu" loading="lazy"><div class="dish-body"><div class="nm">Spicy Chicken Katsu</div><div class="ds">Pollo frito con okonomiyaki, bambú, pak choi, naruto, huevo, nori y salsa picante.</div></div><div class="pr">13,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-mala-chicken.jpg" alt="Mala Chicken Shoyu" loading="lazy"><div class="dish-body"><div class="nm">Mala Chicken Shoyu</div><div class="ds">Pollo teriyaki con sésamo, wakame, bambú, pak choi, huevo, nori y salsa picante.</div></div><div class="pr">13,90€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-mala-chashu.jpg" alt="Mala Chashu" loading="lazy"><div class="dish-body"><div class="nm">Mala Chashu</div><div class="ds">Cerdo, bambú, pak choi, cebollino, puerro, huevo, brotes de soja, col china y salsa picante.</div></div><div class="pr">13,90€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-tantan.jpg" alt="Spicy Tan-tan" loading="lazy"><div class="dish-body"><div class="nm">Spicy Tan-tan</div><div class="ds">Carne picada con miso picante, pak choi, naruto, cebollino, nori, huevo y brotes de soja.</div></div><div class="pr">12,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-spicy-ebi.jpg" alt="Spicy Ebi Fry" loading="lazy"><div class="dish-body"><div class="nm">Spicy Ebi Fry</div><div class="ds">Langostinos fritos en okonomiyaki, bambú, pak choi, naruto, huevo, nori y salsa picante.</div></div><div class="pr">13,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-spicy-karaage.jpg" alt="Spicy Karaage" loading="lazy"><div class="dish-body"><div class="nm">Spicy Karaage</div><div class="ds">Pollo frito con okonomiyaki, bambú, pak choi, naruto, huevo, nori y salsa picante.</div></div><div class="pr">13,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-mazesoba.jpg" alt="Mazesoba Buga" loading="lazy"><div class="dish-body"><div class="nm">Mazesoba Buga</div><div class="ds">Carne picada, cacahuete, cebollino, nori, brotes de soja, cebolla frita, huevo, zanahoria y sésamo.</div></div><div class="pr">11,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-mazesoba-veg.jpg" alt="Mazesoba Vegetal" loading="lazy"><div class="dish-body"><div class="nm">Mazesoba Vegetal</div><div class="ds">Nori, brotes de soja, zanahoria, cacahuete, cebolla frita, cebollino, sésamo y heura.</div></div><div class="pr">11,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-kimchi.jpg" alt="Kimchi" loading="lazy"><div class="dish-body"><div class="nm">Kimchi</div><div class="ds">Kimchi, maíz, espárragos, pak choi, brotes de soja, col china, cebollino, puerro y heura.</div></div><div class="pr">13,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-yasai.jpg" alt="Yasai Shoyu" loading="lazy"><div class="dish-body"><div class="nm">Yasai Shoyu</div><div class="ds">Heura, col china, brotes de soja, maíz, espinacas, pak choi, setas, nori y zanahoria.</div></div><div class="pr">12,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/ramen-yasai-miso.jpg" alt="Yasai Miso" loading="lazy"><div class="dish-body"><div class="nm">Yasai Miso</div><div class="ds">Setas, espárragos en salsa, nori, tomillo, pak choi, huevo, brotes de soja, col china, zanahoria y bambú.</div></div><div class="pr">13,60€</div></div>
+    </div>
+
+    <!-- Bao -->
+    <div class="menu-panel" data-panel="bao">
+      <div class="panel-title">Bao</div>
+      <div class="panel-sub">El pan bao, al vapor, con el relleno que elijas</div>
+      <div class="dish"><img class="thumb" src="assets/bao-pan.jpg" alt="Pan Bao" loading="lazy"><div class="dish-body"><div class="nm">Pan Bao</div><div class="ds">Pan bao al vapor.</div></div><div class="pr">2,00€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bao-heura.jpg" alt="Bao de Heura" loading="lazy"><div class="dish-body"><div class="nm">Bao de Heura</div><div class="ds">Heura, mostaza, cebollino, lechuga, okonomiyaki y mayonesa.</div></div><div class="pr">4,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bao-pollo.jpg" alt="Bao de Pollo" loading="lazy"><div class="dish-body"><div class="nm">Bao de Pollo</div><div class="ds">Pollo teriyaki, pepino, lechuga, cebollino, okonomiyaki y mayonesa.</div></div><div class="pr">4,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bao-pato.jpg" alt="Bao de Pato" loading="lazy"><div class="dish-body"><div class="nm">Bao de Pato</div><div class="ds">Pato en hoisin, tiras de puerro, lechuga, cebollino, okonomiyaki y mayonesa.</div></div><div class="pr">4,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bao-gambas.jpg" alt="Bao de Gambas" loading="lazy"><div class="dish-body"><div class="nm">Bao de Gambas</div><div class="ds">Langostinos fritos en panko, mostaza, cebollino, lechuga, okonomiyaki y mayonesa.</div></div><div class="pr">4,80€</div></div>
+    </div>
+
+    <!-- Donburi -->
+    <div class="menu-panel" data-panel="donburi">
+      <div class="panel-title">Donburi</div>
+      <div class="panel-sub">Arroz con sésamo y jengibre rojo</div>
+      <div class="dish"><img class="thumb" src="assets/don-ebi-curry.jpg" alt="Ebi Fry Curry" loading="lazy"><div class="dish-body"><div class="nm">Ebi Fry Curry</div><div class="ds">Arroz con curry, langostino frito, jengibre rojo, ensalada y sopa miso.</div></div><div class="pr">13,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/don-tantan.jpg" alt="Tan-tan Don" loading="lazy"><div class="dish-body"><div class="nm">Tan-tan Don</div><div class="ds">Arroz con carne picada, cebolla morada, sésamo y salsa de soja.</div></div><div class="pr">8,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/don-karaage.jpg" alt="Karaage Don" loading="lazy"><div class="dish-body"><div class="nm">Karaage Don</div><div class="ds">Arroz con pollo frito, kimchi, limón, cebollino, huevo medio cocido y mayonesa.</div></div><div class="pr">10,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/don-arroz-blanco.jpg" alt="Arroz Blanco" loading="lazy"><div class="dish-body"><div class="nm">Arroz Blanco</div><div class="ds">Arroz con sésamo y jengibre rojo.</div></div><div class="pr">2,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/don-unagi.jpg" alt="Unagi Don" loading="lazy"><div class="dish-body"><div class="nm">Unagi Don</div><div class="ds">Arroz con anguila a la plancha y lechuga.</div></div><div class="pr">14,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/don-ebi-fry-don.jpg" alt="Ebi Fry Don" loading="lazy"><div class="dish-body"><div class="nm">Ebi Fry Don</div><div class="ds">Arroz con langostino frito en okonomiyaki, kimchi, limón, cebollino, huevo medio cocido y mayonesa.</div></div><div class="pr">10,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/don-teriyaki.jpg" alt="Teriyaki Chicken Don" loading="lazy"><div class="dish-body"><div class="nm">Teriyaki Chicken Don</div><div class="ds">Arroz con pollo teriyaki con sésamo, kimchi, huevo medio cocido y mayonesa.</div></div><div class="pr">10,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/don-pato.jpg" alt="Pato Don" loading="lazy"><div class="dish-body"><div class="nm">Pato Don</div><div class="ds">Arroz con pato frito teriyaki con sésamo, kimchi, limón, lechuga, cebollino y huevo medio cocido.</div></div><div class="pr">10,80€</div></div>
+    </div>
+
+    <!-- Combo -->
+    <div class="menu-panel" data-panel="combo">
+      <div class="panel-title">Combo</div>
+      <div class="panel-sub">Platos completos con ensalada y sopa miso</div>
+      <div class="dish"><img class="thumb" src="assets/combo-pato-curry.jpg" alt="Pato Curry" loading="lazy"><div class="dish-body"><div class="nm">Pato Curry</div><div class="ds">Arroz con curry, pato en hoisin con sésamo, jengibre rojo, ensalada y sopa miso.</div></div><div class="pr">13,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/combo-ebi-curry.jpg" alt="Ebi Fry Curry" loading="lazy"><div class="dish-body"><div class="nm">Ebi Fry Curry</div><div class="ds">Arroz con curry, langostino crujiente en okonomiyaki, jengibre rojo, ensalada y sopa miso.</div></div><div class="pr">13,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/combo-teriyaki-curry.jpg" alt="Teriyaki Chicken Curry" loading="lazy"><div class="dish-body"><div class="nm">Teriyaki Chicken Curry</div><div class="ds">Arroz con curry, pollo teriyaki con sésamo, jengibre rojo, ensalada y sopa miso.</div></div><div class="pr">13,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/combo-korokke-curry.jpg" alt="Korokke Curry" loading="lazy"><div class="dish-body"><div class="nm">Korokke Curry</div><div class="ds">Arroz con curry, croqueta de calabaza en okonomiyaki, jengibre rojo, ensalada y sopa miso.</div></div><div class="pr">13,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/combo-katsu-curry.jpg" alt="Chicken-katsu Curry" loading="lazy"><div class="dish-body"><div class="nm">Chicken-katsu Curry</div><div class="ds">Arroz con curry, pollo katsu rebozado, jengibre rojo, ensalada y sopa miso.</div></div><div class="pr">13,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/combo-korokke.jpg" alt="Combo Korokke" loading="lazy"><div class="dish-body"><div class="nm">Combo Korokke</div><div class="ds">Croqueta frita de verduras, ensalada con sésamo, okonomiyaki, mayonesa, sopa miso y arroz.</div></div><div class="pr">11,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/combo-pato.jpg" alt="Combo Pato" loading="lazy"><div class="dish-body"><div class="nm">Combo Pato</div><div class="ds">Pato con hoisin y sésamo, mayonesa, ensalada cremosa, arroz con sésamo y sopa miso.</div></div><div class="pr">13,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/combo-gyozas.jpg" alt="Combo Gyozas" loading="lazy"><div class="dish-body"><div class="nm">Combo Gyozas</div><div class="ds">6 gyozas a la plancha, ensalada cremosa, arroz con sésamo y sopa miso.</div></div><div class="pr">11,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/combo-teriyaki.jpg" alt="Combo Teriyaki Chicken" loading="lazy"><div class="dish-body"><div class="nm">Combo Teriyaki Chicken</div><div class="ds">Pollo teriyaki con sésamo, mayonesa, ensalada cremosa, arroz con sésamo y sopa miso.</div></div><div class="pr">12,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/combo-katsu.jpg" alt="Combo Chicken-katsu" loading="lazy"><div class="dish-body"><div class="nm">Combo Chicken-katsu</div><div class="ds">Pollo frito crujiente en okonomiyaki, mayonesa, ensalada cremosa, arroz con sésamo y sopa miso.</div></div><div class="pr">12,80€</div></div>
+    </div>
+
+    <!-- Cerveza -->
+    <div class="menu-panel" data-panel="cerveza">
+      <div class="panel-title">Cerveza</div>
+      <div class="panel-sub">Cervezas japonesas, gallegas y bebidas para acompañar el cuenco</div>
+      <div class="dish"><img class="thumb" src="assets/cerveza-kirin.jpg" alt="Kirin Ichiban" loading="lazy"><div class="dish-body"><div class="nm">Kirin Ichiban</div><div class="ds">La cerveza japonesa por excelencia.</div></div><div class="pr">3,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/cerveza-kirin.jpg" alt="Kirin Ichiban Sin Alcohol" loading="lazy"><div class="dish-body"><div class="nm">Kirin Ichiban Sin Alcohol</div><div class="ds">Cerveza japonesa sin alcohol.</div></div><div class="pr">3,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/cerveza-asahi.jpg" alt="Asahi" loading="lazy"><div class="dish-body"><div class="nm">Asahi</div><div class="ds">Cerveza japonesa premium.</div></div><div class="pr">3,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/cerveza-sapporo.jpg" alt="Sapporo" loading="lazy"><div class="dish-body"><div class="nm">Sapporo</div><div class="ds">Cerveza japonesa.</div></div><div class="pr">3,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/cerveza-estrella.jpg" alt="Estrella Galicia" loading="lazy"><div class="dish-body"><div class="nm">Estrella Galicia</div><div class="ds">Cerveza gallega.</div></div><div class="pr">2,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/cerveza-estrella-tostada.jpg" alt="Estrella Galicia Tostada" loading="lazy"><div class="dish-body"><div class="nm">Estrella Galicia Tostada</div><div class="ds">Cerveza gallega tostada.</div></div><div class="pr">2,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/cerveza-estrella-sin.jpg" alt="Estrella Galicia Sin Alcohol" loading="lazy"><div class="dish-body"><div class="nm">Estrella Galicia Sin Alcohol</div><div class="ds">Cerveza gallega sin alcohol.</div></div><div class="pr">2,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/cerveza-tinto-verano.jpg" alt="Tinto de Verano" loading="lazy"><div class="dish-body"><div class="nm">Tinto de Verano</div><div class="ds">Vino tinto con refresco de limón.</div></div><div class="pr">3,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/cerveza-copa-vino.jpg" alt="Copa de Vino" loading="lazy"><div class="dish-body"><div class="nm">Copa de Vino</div><div class="ds">Copa de vino.</div></div><div class="pr">3,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/cerveza-botella-vino.jpg" alt="Botella de Vino" loading="lazy"><div class="dish-body"><div class="nm">Botella de Vino</div><div class="ds">Botella de vino.</div></div><div class="pr">17,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/cerveza-jarra-sake.jpg" alt="Jarra de Sake" loading="lazy"><div class="dish-body"><div class="nm">Jarra de Sake</div><div class="ds">Jarra de sake.</div></div><div class="pr">7,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-chupito-sake.jpg" alt="Chupito de Sake" loading="lazy"><div class="dish-body"><div class="nm">Chupito de Sake</div><div class="ds">Chupito de sake.</div></div><div class="pr">2,50€</div></div>
+    </div>
+
+    <!-- Bebidas -->
+    <div class="menu-panel" data-panel="bebidas">
+      <div class="panel-title">Bebidas</div>
+      <div class="panel-sub">Refrescos, zumos, aguas y bebidas japonesas</div>
+      <div class="dish"><img class="thumb" src="assets/bebida-cola.jpg" alt="Coca Cola" loading="lazy"><div class="dish-body"><div class="nm">Coca Cola</div><div class="ds">Refresco de cola.</div></div><div class="pr">2,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-cola.jpg" alt="Coca Cola Zero" loading="lazy"><div class="dish-body"><div class="nm">Coca Cola Zero</div><div class="ds">Refresco de cola sin azúcar.</div></div><div class="pr">2,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-cola.jpg" alt="Coca Cola Zero Zero" loading="lazy"><div class="dish-body"><div class="nm">Coca Cola Zero Zero</div><div class="ds">Refresco de cola sin azúcar ni cafeína.</div></div><div class="pr">2,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-aquarius-limon.jpg" alt="Aquarius Limón" loading="lazy"><div class="dish-body"><div class="nm">Aquarius Limón</div><div class="ds">Bebida isotónica de limón.</div></div><div class="pr">2,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-aquarius-naranja.jpg" alt="Aquarius Naranja" loading="lazy"><div class="dish-body"><div class="nm">Aquarius Naranja</div><div class="ds">Bebida isotónica de naranja.</div></div><div class="pr">2,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-sprite.jpg" alt="Sprite" loading="lazy"><div class="dish-body"><div class="nm">Sprite</div><div class="ds">Refresco de lima-limón.</div></div><div class="pr">2,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-tonica.jpg" alt="Tónica Bliss" loading="lazy"><div class="dish-body"><div class="nm">Tónica Bliss</div><div class="ds">Tónica.</div></div><div class="pr">2,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-zumo-pina.jpg" alt="Zumo de Piña" loading="lazy"><div class="dish-body"><div class="nm">Zumo de Piña</div><div class="ds">Zumo de piña.</div></div><div class="pr">2,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-zumo-melocoton.jpg" alt="Zumo de Melocotón" loading="lazy"><div class="dish-body"><div class="nm">Zumo de Melocotón</div><div class="ds">Zumo de melocotón.</div></div><div class="pr">2,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-fuze-maracuya.jpg" alt="Fuze Tea Maracuyá" loading="lazy"><div class="dish-body"><div class="nm">Fuze Tea Maracuyá</div><div class="ds">Té con sabor a maracuyá.</div></div><div class="pr">2,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-fuze-limon.jpg" alt="Fuze Tea Limón" loading="lazy"><div class="dish-body"><div class="nm">Fuze Tea Limón</div><div class="ds">Té con sabor a limón.</div></div><div class="pr">2,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-fanta-limon.jpg" alt="Fanta Limón" loading="lazy"><div class="dish-body"><div class="nm">Fanta Limón</div><div class="ds">Refresco de limón.</div></div><div class="pr">2,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-fanta-naranja.jpg" alt="Fanta Naranja" loading="lazy"><div class="dish-body"><div class="nm">Fanta Naranja</div><div class="ds">Refresco de naranja.</div></div><div class="pr">2,60€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-agua.jpg" alt="Agua Pequeña" loading="lazy"><div class="dish-body"><div class="nm">Agua Pequeña</div><div class="ds">Agua mineral pequeña.</div></div><div class="pr">2,00€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-agua.jpg" alt="Agua Grande" loading="lazy"><div class="dish-body"><div class="nm">Agua Grande</div><div class="ds">Agua mineral grande.</div></div><div class="pr">3,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-agua.jpg" alt="Agua con Gas Pequeña" loading="lazy"><div class="dish-body"><div class="nm">Agua con Gas Pequeña</div><div class="ds">Agua mineral con gas pequeña.</div></div><div class="pr">2,80€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-mogu.jpg" alt="Mogu Mogu Fresa" loading="lazy"><div class="dish-body"><div class="nm">Mogu Mogu Fresa</div><div class="ds">Bebida japonesa con trozos de fresa.</div></div><div class="pr">2,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-mogu.jpg" alt="Mogu Mogu Melón" loading="lazy"><div class="dish-body"><div class="nm">Mogu Mogu Melón</div><div class="ds">Bebida japonesa con trozos de melón.</div></div><div class="pr">2,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-mogu.jpg" alt="Mogu Mogu Mango" loading="lazy"><div class="dish-body"><div class="nm">Mogu Mogu Mango</div><div class="ds">Bebida japonesa con trozos de mango.</div></div><div class="pr">2,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-mogu.jpg" alt="Mogu Mogu Coco" loading="lazy"><div class="dish-body"><div class="nm">Mogu Mogu Coco</div><div class="ds">Bebida japonesa con trozos de coco.</div></div><div class="pr">2,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-mogu.jpg" alt="Mogu Mogu Lychee" loading="lazy"><div class="dish-body"><div class="nm">Mogu Mogu Lychee</div><div class="ds">Bebida japonesa con trozos de lichi.</div></div><div class="pr">2,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-mogu.jpg" alt="Mogu Mogu Piña" loading="lazy"><div class="dish-body"><div class="nm">Mogu Mogu Piña</div><div class="ds">Bebida japonesa con trozos de piña.</div></div><div class="pr">2,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-mogu.jpg" alt="Mogu Mogu Arándanos" loading="lazy"><div class="dish-body"><div class="nm">Mogu Mogu Arándanos</div><div class="ds">Bebida japonesa con trozos de arándanos.</div></div><div class="pr">2,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-ramune.jpg" alt="Ramune Fresa" loading="lazy"><div class="dish-body"><div class="nm">Ramune Fresa</div><div class="ds">Refresco japonés con canica.</div></div><div class="pr">3,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-ramune.jpg" alt="Ramune Sandía" loading="lazy"><div class="dish-body"><div class="nm">Ramune Sandía</div><div class="ds">Refresco japonés con canica.</div></div><div class="pr">3,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-ramune.jpg" alt="Ramune Melocotón" loading="lazy"><div class="dish-body"><div class="nm">Ramune Melocotón</div><div class="ds">Refresco japonés con canica.</div></div><div class="pr">3,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-ramune.jpg" alt="Ramune Melón" loading="lazy"><div class="dish-body"><div class="nm">Ramune Melón</div><div class="ds">Refresco japonés con canica.</div></div><div class="pr">3,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-ramune.jpg" alt="Ramune Arándano" loading="lazy"><div class="dish-body"><div class="nm">Ramune Arándano</div><div class="ds">Refresco japonés con canica.</div></div><div class="pr">3,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-ramune.jpg" alt="Ramune Piña" loading="lazy"><div class="dish-body"><div class="nm">Ramune Piña</div><div class="ds">Refresco japonés con canica.</div></div><div class="pr">3,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-ramune.jpg" alt="Ramune Lychee" loading="lazy"><div class="dish-body"><div class="nm">Ramune Lychee</div><div class="ds">Refresco japonés con canica.</div></div><div class="pr">3,50€</div></div>
+      <div class="dish"><img class="thumb" src="assets/bebida-lata-anime.jpg" alt="Lata Anime" loading="lazy"><div class="dish-body"><div class="nm">Lata Anime</div><div class="ds">Lata de temática anime.</div></div><div class="pr">5,50€</div></div>
+    </div>
+
+    <!-- Postre -->
+    <div class="menu-panel" data-panel="postre">
+      <div class="panel-title">Postre</div>
+      <div class="panel-sub">Postre japonés artesano · pasteles, dorayaki y mochi</div>
+      <div class="dish"><img class="thumb" src="assets/postre-yuzu.jpg" alt="Pastel Yuzu" loading="lazy"><div class="dish-body"><div class="nm">Pastel Yuzu</div><div class="ds">Postre de mousse de yuzu con base de bizcocho cubierto de mermelada de yuzu, coronado con physalis y chocolate negro.</div></div><div class="pr">6,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/postre-oreo.jpg" alt="Pastel Oreo" loading="lazy"><div class="dish-body"><div class="nm">Pastel Oreo</div><div class="ds">Postre de mousse de galleta oreo, base de bizcocho de cacao, envuelto con rejilla de chocolate negro y coronado con galleta oreo.</div></div><div class="pr">6,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/postre-sacher.jpg" alt="Pastel Sacher" loading="lazy"><div class="dish-body"><div class="nm">Pastel Sacher</div><div class="ds">Postre de mousse de chocolate intenso con bizcocho brownie relleno de mermelada de naranja, decorado con chocolate negro, cacahuete cubierto de chocolate blanco y polvo de pistacho.</div></div><div class="pr">6,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/postre-dorayaki-matcha.jpg" alt="Dorayaki de Té Matcha" loading="lazy"><div class="dish-body"><div class="nm">Dorayaki de Té Matcha</div><div class="ds">Dorayaki artesano relleno de crema de té matcha.</div></div><div class="pr">5,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/postre-dorayaki-chocolate.jpg" alt="Dorayaki de Chocolate" loading="lazy"><div class="dish-body"><div class="nm">Dorayaki de Chocolate</div><div class="ds">Dorayaki artesano relleno de crema de chocolate.</div></div><div class="pr">5,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/postre-dorayaki-judia.jpg" alt="Dorayaki de Judía Roja" loading="lazy"><div class="dish-body"><div class="nm">Dorayaki de Judía Roja</div><div class="ds">Dorayaki artesano relleno de crema de judía roja.</div></div><div class="pr">5,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/postre-mochi-matcha.jpg" alt="Mochi de Té Matcha" loading="lazy"><div class="dish-body"><div class="nm">Mochi de Té Matcha</div><div class="ds">Envoltura de arroz glutinoso rellena de mousse de té matcha, un sabor tradicional japonés.</div></div><div class="pr">5,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/postre-mochi-mango.jpg" alt="Mochi Maracuyá y Mango" loading="lazy"><div class="dish-body"><div class="nm">Mochi Maracuyá y Mango</div><div class="ds">Envoltura de arroz glutinoso rellena de mousse de mango y maracuyá.</div></div><div class="pr">5,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/postre-mochi-cheesecake.jpg" alt="Mochi Cheesecake" loading="lazy"><div class="dish-body"><div class="nm">Mochi Cheesecake</div><div class="ds">Envoltura de arroz glutinoso rellena de mousse de queso con corazón de mermelada de frambuesa y arándanos.</div></div><div class="pr">5,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/postre-mochi-oreo.jpg" alt="Mochi Oreo" loading="lazy"><div class="dish-body"><div class="nm">Mochi Oreo</div><div class="ds">Envoltura de arroz glutinoso rellena de mousse de galleta oreo.</div></div><div class="pr">5,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/postre-mochi-frambuesa.jpg" alt="Mochi Frambuesa" loading="lazy"><div class="dish-body"><div class="nm">Mochi Frambuesa<span>(vegano)</span></div><div class="ds">Envoltura de arroz glutinoso rellena de mousse de frambuesa.</div></div><div class="pr">5,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/postre-mochi-nutella.jpg" alt="Mochi Nutella" loading="lazy"><div class="dish-body"><div class="nm">Mochi Nutella</div><div class="ds">Envoltura de arroz glutinoso rellena de mousse de nutella con almendra caramelizada.</div></div><div class="pr">5,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/postre-mochi-chocolate.jpg" alt="Mochi Chocolate" loading="lazy"><div class="dish-body"><div class="nm">Mochi Chocolate</div><div class="ds">Envoltura de arroz glutinoso rellena de mousse de chocolate.</div></div><div class="pr">5,20€</div></div>
+      <div class="dish"><img class="thumb" src="assets/postre-mochi-sakura.jpg" alt="Mochi Sakura" loading="lazy"><div class="dish-body"><div class="nm">Mochi Sakura</div><div class="ds">Envoltura de arroz glutinoso rellena de mousse de flor de cerezo.</div></div><div class="pr">5,20€</div></div>
+    </div>
+
+    <p class="menu-note">Carta de referencia: buga-ramen.com/carta. Alérgenos disponibles a petición en el local.</p>
+  </div>
+</section>
+
+<!-- ===== Ubicación ===== -->
+<section id="ubicacion">
+  <div class="wrap">
+    <span class="kicker">Dónde estamos</span>
+    <h2 class="title">Ven a visitarnos</h2>
+    <div class="loc" style="margin-top:40px">
+      <div>
+        <div class="info-block">
+          <h3>Dirección y contacto</h3>
+          <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><div class="rt"><b>BUGA RAMEN Dos Hermanas</b><span>Centro Comercial Sevilla Factory<br><span style="color:var(--accent)">Av. 4 de Diciembre · 41703 Dos Hermanas (Sevilla)</span></span></div></div>
+          <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.5 2.6a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.2-1.1a2 2 0 0 1 2.1-.5c.8.2 1.7.4 2.6.5a2 2 0 0 1 1.7 2z"/></svg><div class="rt"><b>Teléfono &amp; WhatsApp</b><span style="display:block">Fijo · <span style="color:var(--accent)">955 753 877</span></span><span style="display:block">Móvil / WhatsApp · <span style="color:var(--accent)">+34 659 067 813</span></span></div></div>
+          <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg><div class="rt"><b>Instagram</b><span><a href="https://www.instagram.com/bugaramendoshermanas" target="_blank" rel="noopener" style="color:var(--accent)">@bugaramendoshermanas</a></span></div></div>
+          <div class="row"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 1 1-2.31-2.81v-3.5a6.37 6.37 0 1 0 5.76 6.35V8.3a7.88 7.88 0 0 0 4.77 1.54V6.32a4.5 4.5 0 0 1-1 .37z"/></svg><div class="rt"><b>TikTok</b><span><a href="https://www.tiktok.com/@buga.ramen.dos.he" target="_blank" rel="noopener" style="color:var(--accent)">@buga.ramen.dos.he</a></span></div></div>
+          <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div class="rt"><b>Horario</b><span>De lunes a domingo — <span style="color:var(--accent)">12:30 – 16:30 · 20:00 – 00:00</span></span></div></div>
+        </div>
+        <div class="info-block" style="margin-top:18px">
+          <h3>Horario orientativo</h3>
+          <table class="hours">
+            <tr><td>Lunes – Domingo</td><td>12:30 – 16:30 · 20:00 – 00:00</td></tr>
+            <tr><td>Comida para llevar</td><td>Disponible en el local</td></tr>
+          </table>
+        </div>
+        <div class="info-block" style="margin-top:18px">
+          <h3>App de Reparto</h3>
+          <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2h12l2 7H4l2-7zM3 9h18v3a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V9zM9 20a2 2 0 1 0 4 0M14 20a2 2 0 1 0 4 0"/></svg><div class="rt"><b>Glovo</b><span><a href="https://share.google/zt1ZcsCmZap7OmmgF" target="_blank" rel="noopener" style="color:var(--accent)">Pedir por Glovo</a></span></div></div>
+          <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2h12l2 7H4l2-7zM3 9h18v3a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V9zM9 20a2 2 0 1 0 4 0M14 20a2 2 0 1 0 4 0"/></svg><div class="rt"><b>Just Eat</b><span><a href="https://share.google/b4lfMvvwPK1xBdb6Y" target="_blank" rel="noopener" style="color:var(--accent)">Pedir por Just Eat</a></span></div></div>
+          <p style="margin-top:12px;font-size:12.5px;color:var(--muted-2);line-height:1.7"><b style="color:var(--accent)">Reparto propio a domicilio</b> — menos de 10 minutos de distancia <b>1,50 €</b> · más de 10 minutos <b>2,50 €</b></p>
+        </div>
+      </div>
+      <div class="mapbox">
+        <iframe title="Mapa: Centro Comercial Sevilla Factory, Dos Hermanas" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-5.9505%2C37.2817%2C-5.9325%2C37.2937&amp;layer=mapnik&amp;marker=37.2877%2C-5.9416"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Contact ===== -->
+<section class="contact" id="contacto">
+  <div class="wrap">
+    <span class="kicker">Reserva tu cuenco</span>
+    <div class="big">¿Con ganas de <span class="ja">ramen</span>?</div>
+    <p>Pasa por nuestra barra, llámanos o escríbenos por WhatsApp para reservar mesa o encargar tu comida para llevar.</p>
+    <div class="cta">
+      <a class="btn btn-solid" href="#ubicacion">Ver dirección y horario</a>
+      <a class="btn btn-ghost" href="tel:+34955753877">Llamar · 955 753 877</a>
+      <a class="btn btn-solid" href="https://wa.me/34659067813" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer>
+  <div class="wrap foot">
+    <a class="brand" href="#inicio">
+      <img class="logo" src="assets/logo.png" alt="BUGA RAMEN" style="height:40px">
+      <span class="word">Dos Hermanas<small>Ramen · Sevilla</small></span>
+    </a>
+    <div class="socials">
+      <a href="https://www.instagram.com/bugaramendoshermanas" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+      <a href="https://www.tiktok.com/@buga.ramen.dos.he" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 1 1-2.31-2.81v-3.5a6.37 6.37 0 1 0 5.76 6.35V8.3a7.88 7.88 0 0 0 4.77 1.54V6.32a4.5 4.5 0 0 1-1 .37z"/></svg></a>
+      <a href="https://www.google.com/maps/search/?api=1&query=Buga%20Ramen%20Dos%20Hermanas%20Sevilla%20Factory" target="_blank" rel="noopener" aria-label="Google Maps"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></a>
+    </div>
+    <p class="note-editable">© 2026 BUGA RAMEN Dos Hermanas · Centro Comercial Sevilla Factory, 41703 Dos Hermanas (Sevilla). Teléfono: 955 753 877 · WhatsApp: +34 659 067 813.</p>
+  </div>
+</footer>
+
+<script>
+  // Burger mobile menu
+  var burger = document.getElementById('burger');
+  var mmenu = document.getElementById('mmenu');
+  burger.addEventListener('click', function(){
+    var open = mmenu.style.display === 'flex';
+    mmenu.style.display = open ? 'none' : 'flex';
+    burger.classList.toggle('open');
+  });
+  mmenu.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){ mmenu.style.display='none'; });
+  });
+
+  // Menu category filter
+  var tabs = document.querySelectorAll('#tabs .tab');
+  var panels = document.querySelectorAll('.menu-panel');
+  tabs.forEach(function(tab){
+    tab.addEventListener('click', function(){
+      tabs.forEach(function(t){ t.classList.remove('on'); });
+      panels.forEach(function(p){ p.classList.remove('on'); });
+      tab.classList.add('on');
+      var panel = document.querySelector('.menu-panel[data-panel="'+tab.getAttribute('data-cat')+'"]');
+      if(panel) panel.classList.add('on');
+    });
+  });
+
+  // Gallery carousel arrows
+  var gview = document.querySelector('.gallery-view');
+  var gstep = function(){
+    var it = gview.querySelector('.gallery-item');
+    return it ? it.offsetWidth + 18 : 448;
+  };
+  var gprev = document.querySelector('.gal-arrow.prev');
+  var gnext = document.querySelector('.gal-arrow.next');
+  if(gview && gprev) gprev.addEventListener('click', function(){ gview.scrollBy({left:-gstep(), behavior:'smooth'}); });
+  if(gview && gnext) gnext.addEventListener('click', function(){ gview.scrollBy({left:gstep(), behavior:'smooth'}); });
+</script>
+</body>
+</html>
